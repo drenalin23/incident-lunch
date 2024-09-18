@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Incident Lunch Exercise</title>
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Lato';
+        color: white;
+      }
+      h1, h2, h3 {
+        font-weight: bold;
+      }
+      pre {
+        font-family: 'Ubuntu Mono';
+        -webkit-border-radius: 2mm;
+        box-shadow: 0 0 1cm 1px rgba(0,0,0,1);
+        padding: 2mm 2mm 2mm 2mm;
+        color: #eaeaea;
+        background-color: black;
+      }
+      .black {
+        color: black;
+      }
+      .grey {
+        color: #767676;
+      }
+      .darkgrey {
+        color: #404040;
+      }
+      ul, li {
+      	font-size: 1.5em;
+      }
+      ul ul, ul li, li ul, li li {
+      	font-size: .95em;
+      }
+
+			code.remark-inline-code {
+        font-family: 'Ubuntu Mono';
+				background-color: black;
+				display: inline-block;
+        -webkit-border-radius: 1mm;
+        padding: 0 1mm 0 1mm;
+        color: #eaeaea;
+			}
+
+      .column2 {
+        width: 49%;
+        padding-left: 1%;
+        float: left;
+      }
+      .column2:first-of-type {
+        padding-left: 0;
+      }
+
+      .column2 + .column2,
+      .column3 + .column3 {
+        clear: none;
+      }
+      * + .column2, * + .column3, 
+      .column2 + *, .column3 + * {
+        clear: both;
+      }
+
+      .column3 {
+        width: 32.333%;
+        padding-left: 1%;
+        float: left;
+      }
+      .column3:first-of-type {
+        padding-left: 0;
+      }
+
+      .clear {
+        clear: both;
+      }
+
+      blockquote {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      remark.macros.scale = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+      };
+      var slideshow = remark.create(
+        {
+          sourceUrl: 'slides.md',
+          ratio:     '16:9',
+          slideNumberFormat: '%current% / %total%',
+          highlightStyle: 'xt256',
+          highlightLines: true
+        }
+      );
+    </script>
+  </body>
+</html>
