@@ -45,7 +45,7 @@ background-color:#63d297
 layout:false
 template: title
 
-![:scale 50%](lunch-title.png)
+![:scale 50%](lunch-title.jpeg)
 
 # Incident Lunch Exercise
 
