@@ -8,7 +8,7 @@ Incldent Lunch exercise template
 1. Check that our slides are up to date with any incident process updates
    1. If you are in a new location you may add a map slide with the lunch exclusion zone
 
-## Facilitating the exercise.
+## Facilitating the exercise
 1. Run through the training introduction
    1. Give some background on IMS and/or Incident Response - the basics of why we are doing this?
    1. Walk through some of the common roles in your Incident Response process
