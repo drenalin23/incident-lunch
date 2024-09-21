@@ -1,5 +1,6 @@
-# incident-lunch
+# The Incident Lunch Exercise
 Incldent Lunch exercise template
+This is a template that can be used to run an incident lunch exercise.  This version was adopted from an exercise that runs regularly at Slack.
 
 ## Setup and plan the lunch exercise
 1. Invite folks, make a calendar invite
